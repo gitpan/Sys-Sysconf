@@ -1,0 +1,20 @@
+This module generates constant subroutines for all the 
+constants that can be passed to POSIX::sysconf().
+
+The list is found by scanning <sys/unistd.h> for  /#define _SC\w+ \d+/.
+
+It is known to "work" on SunOS4, Solaris2, 
+Digital UNIX 4.0, AIX 4.1.4, and HP-UX 10.20.
+
+
+COPYRIGHT
+
+(C)	Nick Ing-Simmons	<nik@tiuk.ti.com>
+(C)	Jarkko Hietaniemi	<jhi@iki.fi>
+
+All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+

@@ -1,0 +1,5 @@
+MANIFEST		This file
+MANIFEST.SKIP		Things not to mention here (i.e. what gets built)
+Makefile.PL		Script to build Makefile
+README			Description
+t/basic.t		A testcase 

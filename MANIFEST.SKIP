@@ -1,0 +1,6 @@
+\bblib\b
+%$
+\.(old|bak)$
+\.tar\.
+Sysconf\.pm$
+\b(Makefile|pm_to_blib)$
